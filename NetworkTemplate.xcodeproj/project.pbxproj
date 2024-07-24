@@ -14,7 +14,6 @@
 		79F3A6292C4FAD5A005C669C /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A6282C4FAD5A005C669C /* NetworkConstant.swift */; };
 		79F3A62B2C4FB17B005C669C /* APIRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A62A2C4FB17B005C669C /* APIRequestBuilder.swift */; };
 		79F3A62D2C4FB18A005C669C /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A62C2C4FB18A005C669C /* TokenManager.swift */; };
-		79F3A6312C4FB19B005C669C /* LoaderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A62E2C4FB19B005C669C /* LoaderState.swift */; };
 		79F3A6322C4FB19B005C669C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A62F2C4FB19B005C669C /* NetworkError.swift */; };
 		79F3A6332C4FB19B005C669C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A6302C4FB19B005C669C /* NetworkService.swift */; };
 		79F3A6352C4FB1B4005C669C /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A6342C4FB1B4005C669C /* KeychainManager.swift */; };
@@ -36,7 +35,6 @@
 		79F3A6282C4FAD5A005C669C /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		79F3A62A2C4FB17B005C669C /* APIRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestBuilder.swift; sourceTree = "<group>"; };
 		79F3A62C2C4FB18A005C669C /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
-		79F3A62E2C4FB19B005C669C /* LoaderState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderState.swift; sourceTree = "<group>"; };
 		79F3A62F2C4FB19B005C669C /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		79F3A6302C4FB19B005C669C /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		79F3A6342C4FB1B4005C669C /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				79F3A62A2C4FB17B005C669C /* APIRequestBuilder.swift */,
 				79F3A6302C4FB19B005C669C /* NetworkService.swift */,
 				79F3A62F2C4FB19B005C669C /* NetworkError.swift */,
-				79F3A62E2C4FB19B005C669C /* LoaderState.swift */,
 				79F3A63C2C4FC830005C669C /* Extensions */,
 				79F3A6492C50DCE4005C669C /* Token */,
 			);
@@ -228,7 +225,6 @@
 				79F3A6402C4FC895005C669C /* PersonRepository.swift in Sources */,
 				79F3A61C2C4FAC52005C669C /* ContentView.swift in Sources */,
 				79F3A6352C4FB1B4005C669C /* KeychainManager.swift in Sources */,
-				79F3A6312C4FB19B005C669C /* LoaderState.swift in Sources */,
 				79F3A6422C4FCEBD005C669C /* Error+Extensions.swift in Sources */,
 				79F3A62D2C4FB18A005C669C /* TokenManager.swift in Sources */,
 				79F3A6292C4FAD5A005C669C /* NetworkConstant.swift in Sources */,
