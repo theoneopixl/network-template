@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // EnvironmentObject
+    @EnvironmentObject private var personRepo: PersonRepository
+    
+    // MARK: -
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(personRepo.persons) { person in
+                Text("\(person.firstName ?? "") \(person.lastName ?? "") \(person.age ?? 0)")
+            }
         }
-        .padding()
-    }
-}
+    } // End body
+} // End struct
 
+// MARK: - Preview
 #Preview {
     ContentView()
+        .environmentObject(PersonRepository())
 }
