@@ -37,6 +37,28 @@ public enum NetworkError: Error, LocalizedError {
     }
 }
 
+/// Maps the HTTP response to the corresponding data or throws an error based on the status code.
+///
+/// This function checks the status code of the HTTP response and maps it to the corresponding data.
+/// If the status code indicates an error, it throws a `NetworkError`.
+///
+/// - Parameter response: A tuple containing the data, response, and the HTTP method of the request.
+/// - Returns: The data from the response if the status code is successful.
+/// - Throws: A `NetworkError` if the status code indicates an error.
+///
+/// The function behaves differently in debug mode:
+/// - In debug mode, it prints the URL, HTTP method, and status code of the response.
+///
+/// Example:
+/// ```swift
+/// do {
+///     let data = try mapResponse(response: (data: responseData, response: urlResponse, method: "GET"))
+///     // Use the data
+/// } catch let error as NetworkError {
+///     // Handle the error
+/// }
+/// ```
+///
 func mapResponse(response: (data: Data, response: URLResponse, method: String?)) throws -> Data {
     
     guard let httpResponse = response.response as? HTTPURLResponse else {

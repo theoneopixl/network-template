@@ -82,6 +82,7 @@
 				79F3A6192C4FAC52005C669C /* App.swift */,
 				79F3A61B2C4FAC52005C669C /* ContentView.swift */,
 				79F3A6272C4FAD42005C669C /* Network */,
+				79F3A6482C50DCBE005C669C /* NetworkExample */,
 				79F3A61D2C4FAC53005C669C /* Assets.xcassets */,
 				79F3A61F2C4FAC53005C669C /* Preview Content */,
 			);
@@ -104,11 +105,8 @@
 				79F3A6302C4FB19B005C669C /* NetworkService.swift */,
 				79F3A62F2C4FB19B005C669C /* NetworkError.swift */,
 				79F3A62E2C4FB19B005C669C /* LoaderState.swift */,
-				79F3A62C2C4FB18A005C669C /* TokenManager.swift */,
-				79F3A6342C4FB1B4005C669C /* KeychainManager.swift */,
 				79F3A63C2C4FC830005C669C /* Extensions */,
-				79F3A6432C4FD3C3005C669C /* Utils */,
-				79F3A6372C4FC4BB005C669C /* Person */,
+				79F3A6492C50DCE4005C669C /* Token */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -132,13 +130,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		79F3A6432C4FD3C3005C669C /* Utils */ = {
+		79F3A6482C50DCBE005C669C /* NetworkExample */ = {
 			isa = PBXGroup;
 			children = (
+				79F3A6372C4FC4BB005C669C /* Person */,
+			);
+			path = NetworkExample;
+			sourceTree = "<group>";
+		};
+		79F3A6492C50DCE4005C669C /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				79F3A62C2C4FB18A005C669C /* TokenManager.swift */,
+				79F3A6342C4FB1B4005C669C /* KeychainManager.swift */,
 				79F3A6442C4FD3D2005C669C /* UtilsAPIRequester.swift */,
 				79F3A6462C4FD4D7005C669C /* TokenResponse.swift */,
 			);
-			path = Utils;
+			path = Token;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
